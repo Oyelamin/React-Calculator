@@ -1,0 +1,81 @@
+.app{
+  border: none;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  width: 30%;
+  border-radius: 6px;
+  box-shadow: 4px 40px 40px 40px rgba(31, 27, 27, 0.171);
+}
+
+body{
+  background: turquoise;
+}
+
+.header{
+  padding: 10px 20px;
+  border-bottom: 1px solid silver;
+  color: Black;
+
+
+}
+.btnSection{
+  box-shadow: 4px 40px 40px 40px rgba(31, 27, 27, 0.171);
+  margin: auto;
+}
+.btnSection button{
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(235, 229, 229);
+  border: 1px solid black;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 3px;
+  
+  
+}
+
+.resultSection{
+  border-top: none;
+  width: 100%;
+  border-radius: 6px;
+}
+.resultSection .results{
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  border: none;
+  padding: 20px 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: right;
+}
+
+.column-3{
+  width: 75%;
+  float: left;
+
+
+}
+.column-2{
+  width: 50%;
+  float: left;
+
+}
+.column-1{
+  width: 25%;
+  float: left;
+
+
+}
+.floaty-last{
+  position: inherit;
+  text-align: right;
+  padding: 10px 0px;
+  padding-right: 20px;
+  color: silver;
+
+}
+input:focus{
+  outline: none;
+}
